@@ -1,0 +1,38 @@
+.Promotion {
+  background: #000d57;
+  display: flex;
+
+  justify-content: space-around;
+}
+.mail-to {
+  display: flex;
+
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+  text-decoration: none;
+  color: #ffffffd2;
+  font-size: 18px;
+}
+.Promtion-text h1 {
+  margin-top: 20px;
+  font-size: 25px;
+  color: #fff;
+  text-transform: uppercase;
+}
+.promotion-btn {
+  margin-top: 50px;
+  padding: 10px 40px;
+  border-radius: 8px;
+  border: none;
+  background: #4155c5;
+  color: #fff;
+  font-size: 18px;
+  text-transform: capitalize;
+}
+.promotion-btn:hover {
+  background: #546cf2;
+}
+.centure {
+  margin-top: -80px;
+}

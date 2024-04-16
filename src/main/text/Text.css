@@ -1,0 +1,28 @@
+.text-gaming {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background: #031050;
+}
+.text-game h1,
+.text-share span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+}.text-share{
+  display: flex;
+  gap: 10px;
+}
+.text-share span {
+  gap: 10px;
+}
+
+@media (max-width: 750px) {
+  .text-share span {
+    display: none;
+  }
+  .text-share span a{
+    display: block;
+  }
+}
